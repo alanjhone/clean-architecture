@@ -1,6 +1,6 @@
 package br.com.dev.escola.indicacao;
 
-import br.com.dev.escola.aluno.Aluno;
+import br.com.dev.escola.Aluno.Aluno;
 
 import java.time.LocalDateTime;
 

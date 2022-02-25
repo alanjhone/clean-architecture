@@ -1,4 +1,4 @@
-package br.com.dev.escola.aluno;
+package br.com.dev.escola.Aluno;
 
 public class Telefone {
 

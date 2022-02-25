@@ -1,4 +1,4 @@
-package br.com.dev.escola.aluno;
+package br.com.dev.escola.Aluno;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,6 +9,12 @@ public class Aluno {
     private String nome;
     private String email;
     private List<Telefone> telefone = new ArrayList<>();
+
+    public Aluno(String cpf, String nome, String email) {
+        this.cpf = cpf;
+        this.nome = nome;
+        this.email = email;
+    }
 
     public String getCpf() {
         return cpf;
